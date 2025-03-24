@@ -1,0 +1,26 @@
+body { 
+    margin: 0; overflow: hidden; 
+}
+
+canvas {
+    transform: scaleY(-1);
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#settings {
+    position: fixed;
+    display: grid;
+    grid-template-columns: auto 50px;
+    column-gap: 5px;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 3px;
+    z-index: 2;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgba(255, 255, 255, 1);
+}
